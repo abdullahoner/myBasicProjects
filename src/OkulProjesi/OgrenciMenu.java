@@ -27,13 +27,13 @@ public class OgrenciMenu implements I_Islemler{
                     arama();
                 }
                 case '3':{
-
+                    listeleme();
                 }
                 case '4':{
-
+                    silme();
                 }
                 case 'Q':{
-
+                    cikis();
                 }
             }
         }
@@ -65,7 +65,9 @@ public class OgrenciMenu implements I_Islemler{
             for (Ogrenci each:ogrenciList) {
                 if (each.getTcNo().equals(aranacakTc)){
                     System.out.println(each.toString());
-
+                }else {
+                    System.out.println(aranacakTc+" bulunamadi");
+                    ogrMenu();
                 }
             }
             ogrMenu();
