@@ -8,6 +8,9 @@ public class OgrenciMenu implements I_Islemler{
     List<Ogrenci> ogrenciList=new ArrayList<>();
     Scanner scan=new Scanner(System.in);
 
+    public OgrenciMenu() {
+    }
+
     void ogrMenu(){
         System.out.println("==========ISLEMLER==========\n" +
                 "1- EKLEME\n" +
@@ -40,6 +43,7 @@ public class OgrenciMenu implements I_Islemler{
     }
     @Override
     public void ekleme() {
+        Scanner scan=new Scanner(System.in);
         System.out.println("isim giriniz : ");
         String isim=scan.nextLine();
         System.out.println("Soyisim giriniz : ");
@@ -59,15 +63,13 @@ public class OgrenciMenu implements I_Islemler{
 
     @Override
     public void arama() {
+        Scanner scan=new Scanner(System.in);
         if (!ogrenciList.isEmpty()){
-            System.out.println("arama yapmak istediginiz TC No'yu giriniz");
+            System.out.print("arama yapmak istediginiz TC No'yu giriniz");
             String aranacakTc=scan.next();
             for (Ogrenci each:ogrenciList) {
-                if (each.getTcNo().equals(aranacakTc)){
+                if (each.getTcNo().equals(aranacakTc)){ //list.get(each)
                     System.out.println(each.toString());
-                }else {
-                    System.out.println(aranacakTc+" bulunamadi");
-                    ogrMenu();
                 }
             }
             ogrMenu();
@@ -79,6 +81,7 @@ public class OgrenciMenu implements I_Islemler{
 
     @Override
     public void listeleme() {
+
         if (!ogrenciList.isEmpty()){
             for (Ogrenci each:ogrenciList) {
                 System.out.println(each.toString());
@@ -93,6 +96,7 @@ public class OgrenciMenu implements I_Islemler{
 
     @Override
     public void silme() {
+        Scanner scan=new Scanner(System.in);
         if (!ogrenciList.isEmpty()){
             System.out.println("Silme islemi yapmak istediginiz TC No'yu giriniz");
             String aranacakTc=scan.next();
@@ -111,5 +115,6 @@ public class OgrenciMenu implements I_Islemler{
     public void cikis() {
         AnaMenu a=new AnaMenu();
         a.anamenu();
+
     }
 }

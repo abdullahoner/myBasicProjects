@@ -556,7 +556,15 @@
       <change afterPath="$PROJECT_DIR$/../batch195Java/src/ders31_Inheritance/Earaba.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../batch195Java/src/ders31_Inheritance/Ftoyota.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../batch195Java/src/ders31_Inheritance/Gcorolla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MarketProjesi/GunlukKazanclar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MarketProjesi/MarketRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myBasicProjects/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OkulProjesi/AnaMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OkulProjesi/AnaMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OkulProjesi/Kisi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OkulProjesi/Kisi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OkulProjesi/Ogrenci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OkulProjesi/Ogrenci.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/OkulProjesi/OgrenciMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OkulProjesi/OgrenciMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OkulProjesi/Ogretmen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OkulProjesi/Ogretmen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -586,16 +594,36 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/abdul/IdeaProjects/myBasicProjects/src&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.kahveMakinesiProjesi">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\abdul\IdeaProjects\myBasicProjects\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Runner">
     <configuration name="BasitAtmProjesi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BasitAtmProjesi.BasitAtmProjesi" />
       <module name="MyBasicProjects" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="BasitAtmProjesi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OkulProjesi.Runner" />
+      <module name="MyBasicProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OkulProjesi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -618,6 +646,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Runner" />
         <item itemvalue="Application.kahveMakinesiProjesi" />
         <item itemvalue="Application.BasitAtmProjesi" />
       </list>

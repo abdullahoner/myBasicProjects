@@ -3,8 +3,10 @@ package OkulProjesi;
 public class Ogretmen extends Kisi{
     private String bolum;
     private int sicilNo;
+    
+    public Ogretmen(){
 
-
+    }
 
     public Ogretmen(String isim, String soyIsim, String tcNo, int yas, String bolum, int sicilNo) {
         super(isim, soyIsim, tcNo, yas);
@@ -36,3 +38,16 @@ public class Ogretmen extends Kisi{
                 '}';
     }
 }
+
+/*
+    @Override
+    public String toString() {
+        return "Ogretmen{" +
+                "Ogretmen adi : "+getIsim()+
+                "Ogretmen Soyadi : "+getSoyIsim()+
+                "Ogretmen TC No : "+getTcNo()+
+                "Ogretmen yas : "+getYas()+
+                "Ogretmen Bolumu : "+getBolum()+
+                "Ogretmen Sicil No : "+getSicilNo();
+    }
+ */
