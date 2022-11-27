@@ -41,6 +41,7 @@ public class GunlukKazanclar {
 
     }
     protected  void getOrtalamaUstuGunler() {
+        String [] arrGunler = {"Pazartesi","Salı","Carsamba","Persembe","Cuma","Cumartesi","Pazar"};
         int kazanclarToplami =pazartesi+sali+carsamba+persembe+cuma+cumartesi+pazar;
         int kazancOrtalamasi= kazanclarToplami /7;
         List<Integer> gunler=new ArrayList<>();
@@ -55,14 +56,14 @@ public class GunlukKazanclar {
 
         for (int i = 0; i <gunler.size() ; i++) {
             if (kazancOrtalamasi<gunler.get(i)){
-                System.out.println("ortalamanın üstündeki kazanclarınız : "+gunler.get(i));
+                System.out.println("ortalamanın üstündeki kazanclarınız : "+arrGunler[i]+"=>"+gunler.get(i)+"$");
                 ortalamaUstuG.add(""+i);
             }
         }
-        System.out.println(ortalamaUstuG);
+
     }
     protected  void getOrtalamaALtiGunler() {
-
+        String [] arrGunler = {"Pazartesi","Salı","Carsamba","Persembe","Cuma","Cumartesi","Pazar"};
         int kazanclarToplami =pazartesi+sali+carsamba+persembe+cuma+cumartesi+pazar;
         int kazancOrtalamasi= kazanclarToplami /7;
         List<Integer> gunler=new ArrayList<>();
@@ -77,16 +78,13 @@ public class GunlukKazanclar {
         for (int i = 0; i <gunler.size() ; i++) {
             if (kazancOrtalamasi>gunler.get(i)){
                 ortalamaAltiG.add(""+i);
-                System.out.println("ortalamanın altındanki kazanclarınız : "+gunler.get(i));
+                System.out.println("ortalamanın altındanki kazanclarınız : "+arrGunler[i]+"=>"+gunler.get(i)+"$");
 
             }
         }
-        System.out.println(ortalamaAltiG);
+
     }
 }
 
 
 
-/*
-System.out.println(pazartesi+"-"+sali+"-"+carsamba+"-"+persembe+"-"+cuma+"-"+cumartesi+"-"+pazar);
- */
