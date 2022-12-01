@@ -1,4 +1,4 @@
-package OkulProjesi;
+package OkulProjesi01;
 
 import java.util.Scanner;
 

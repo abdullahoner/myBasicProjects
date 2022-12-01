@@ -1,4 +1,4 @@
-package OkulProjesi;
+package OkulProjesi01;
 
 public class Ogrenci extends Kisi{
     private String sinif;

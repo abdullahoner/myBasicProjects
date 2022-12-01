@@ -166,7 +166,6 @@
       <change afterPath="$PROJECT_DIR$/../batch195Java/batch105Java.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../batch195Java/out/production/batch105Java/Main.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../batch195Java/out/production/batch105Java/ders01/C01_HelloWorld.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../batch195Java/out/production/batch105Java/ders01/ornek.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../batch195Java/out/production/batch105Java/ders02/C01_Variables.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../batch195Java/out/production/batch105Java/ders02/C02_dataTurleri_Scanner.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../batch195Java/out/production/batch105Java/ders02/C03_nonPrimitives.class" afterDir="false" />
@@ -362,7 +361,6 @@
       <change afterPath="$PROJECT_DIR$/../batch195Java/out/production/batch105Java/ders31_Inheritance/Gcorolla.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../batch195Java/src/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../batch195Java/src/ders01/C01_HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../batch195Java/src/ders01/ornek.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../batch195Java/src/ders02/C01_Variables.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../batch195Java/src/ders02/C02_dataTurleri_Scanner.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../batch195Java/src/ders02/C03_nonPrimitives.java" afterDir="false" />
@@ -556,6 +554,7 @@
       <change afterPath="$PROJECT_DIR$/../batch195Java/src/ders31_Inheritance/Earaba.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../batch195Java/src/ders31_Inheritance/Ftoyota.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../batch195Java/src/ders31_Inheritance/Gcorolla.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -595,7 +594,7 @@
       <recent name="C:\Users\abdul\IdeaProjects\myBasicProjects\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MarketRunner">
+  <component name="RunManager" selected="Application.OkulProjesi.Runner">
     <configuration name="BasitAtmProjesi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BasitAtmProjesi.BasitAtmProjesi" />
       <module name="MyBasicProjects" />
@@ -622,12 +621,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="OkulProjesi.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OkulProjesi.Runner" />
       <module name="MyBasicProjects" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="OkulProjesi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OkulProjesi01.Runner" />
+      <module name="MyBasicProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OkulProjesi01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -650,6 +662,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OkulProjesi.Runner" />
         <item itemvalue="Application.MarketRunner" />
         <item itemvalue="Application.Runner" />
         <item itemvalue="Application.kahveMakinesiProjesi" />

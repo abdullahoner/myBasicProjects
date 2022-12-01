@@ -1,4 +1,4 @@
-package OkulProjesi;
+package OkulProjesi01;
 
 public class Ogretmen extends Kisi{
     private String bolum;

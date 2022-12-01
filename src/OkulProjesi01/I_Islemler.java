@@ -1,4 +1,4 @@
-package OkulProjesi;
+package OkulProjesi01;
 
 public interface I_Islemler {
 
