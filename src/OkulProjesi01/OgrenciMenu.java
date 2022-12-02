@@ -1,15 +1,11 @@
 package OkulProjesi01;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-
 public class OgrenciMenu implements I_Islemler{
     List<Ogrenci> ogrenciList=new ArrayList<>();
     Scanner scan=new Scanner(System.in);
-
-    public OgrenciMenu() {
-    }
+    public OgrenciMenu() {}
 
     void ogrMenu(){
         System.out.println("==========ISLEMLER==========\n" +
@@ -65,16 +61,25 @@ public class OgrenciMenu implements I_Islemler{
     public void arama() {
         Scanner scan=new Scanner(System.in);
         if (!ogrenciList.isEmpty()){
-            System.out.print("arama yapmak istediginiz TC No'yu giriniz");
-            String aranacakTc=scan.next();
-            for (Ogrenci each:ogrenciList) {
-                if (each.getTcNo().equals(aranacakTc)){ //list.get(each)
-                    System.out.println(each.toString());
+            System.out.println("Aramak istediğiniz ögretmen Tc no sunu giriniz");
+            String arananTcNo= scan.next();
+            int sayac=0;
+            int sayac1=-1;
+            int i=0;
+            for (i = 0; i < ogrenciList.size(); i++) {
+                sayac1++;
+                if (ogrenciList.get(i).getTcNo().equals(arananTcNo)){
+                    sayac++;
+                    break;
                 }
+            }if (sayac==1){
+                System.out.println(ogrenciList.get(sayac1).toString());
+            }else {
+                System.out.println(arananTcNo +" ait ögretmen bulunamadı");
             }
             ogrMenu();
-        }else {
-            System.out.println("Ogrenci Listesi bos");
+        }else{
+            System.out.println("Ögretmen listesi boş");
             ogrMenu();
         }
     }
@@ -115,6 +120,5 @@ public class OgrenciMenu implements I_Islemler{
     public void cikis() {
         AnaMenu a=new AnaMenu();
         a.anamenu();
-
     }
 }

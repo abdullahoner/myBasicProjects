@@ -555,14 +555,8 @@
       <change afterPath="$PROJECT_DIR$/../batch195Java/src/ders31_Inheritance/Ftoyota.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../batch195Java/src/ders31_Inheritance/Gcorolla.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myBasicProjects/OkulProjesi01/AnaMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/myBasicProjects/OkulProjesi01/AnaMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myBasicProjects/OkulProjesi01/Kisi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/myBasicProjects/OkulProjesi01/Kisi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myBasicProjects/OkulProjesi01/Ogrenci.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/myBasicProjects/OkulProjesi01/Ogrenci.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myBasicProjects/OkulProjesi01/Ogretmen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/myBasicProjects/OkulProjesi01/Ogretmen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OkulProjesi01/AnaMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OkulProjesi01/AnaMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OkulProjesi01/Kisi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OkulProjesi01/Kisi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OkulProjesi01/Ogrenci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OkulProjesi01/Ogrenci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OkulProjesi01/Ogretmen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OkulProjesi01/Ogretmen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myBasicProjects/OkulProjesi01/OgrenciMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/myBasicProjects/OkulProjesi01/OgrenciMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OkulProjesi01/OgrenciMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OkulProjesi01/OgrenciMenu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

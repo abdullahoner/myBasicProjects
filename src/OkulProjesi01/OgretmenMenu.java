@@ -62,24 +62,27 @@ public class OgretmenMenu implements  I_Islemler {
     @Override
     public void arama() {
         Scanner scan = new Scanner(System.in);
-        if (!ogretmenList.isEmpty()) {
-            System.out.println("arama yapilacak Tc No giriniz");
-            String aranacakTc = scan.next();
-
-            for (Ogretmen each : ogretmenList
-            ) {
-                if (each.getTcNo().equals(aranacakTc)) {
-                    System.out.println(each.toString());
-
+        if (!ogretmenList.isEmpty()){
+            System.out.println("Aramak istediğiniz ögretmen Tc no sunu giriniz");
+            String arananTcNo= scan.next();
+            int sayac=0;
+            int sayac1=-1;
+            int i=0;
+            for (i = 0; i < ogretmenList.size(); i++) {
+                sayac1++;
+                if (ogretmenList.get(i).getTcNo().equals(arananTcNo)){
+                    sayac++;
+                    break;
                 }
+            }if (sayac==1){
+                System.out.println(ogretmenList.get(sayac1).toString());
+            }else {
+                System.out.println(arananTcNo +" ait ögretmen bulunamadı");
             }
-
             ogretmenMenu();
-
-        } else {
-            System.out.println("liste bos");
+        }else{
+            System.out.println("Ögretmen listesi boş");
             ogretmenMenu();
-
         }
 
     }
