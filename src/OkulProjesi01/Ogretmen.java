@@ -32,10 +32,10 @@ public class Ogretmen extends Kisi{
 
     @Override
     public String toString() {
-        return "Ogretmen{" +
-                "bolum='" + bolum + '\'' +
-                ", sicilNo=" + sicilNo +
-                '}';
+        return super.toString() +
+                "Ogretmen : " +
+                "bolum : " + bolum  +
+                "Sicil No = : " + sicilNo ;
     }
 }
 

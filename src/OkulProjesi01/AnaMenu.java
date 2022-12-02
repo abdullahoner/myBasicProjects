@@ -10,7 +10,7 @@ public class AnaMenu {
                 "OGRENCI VE OGREMEN YONETIM PANELİ\n" +
                 "================================\n" +
                 "1- OGRENCI ISLEMLERI\n" +
-                "2- OGRETME ISLEMLERI\n" +
+                "2- OGRETMEN ISLEMLERI\n" +
                 "Q- CIKIS\n" +
                 "SECIMINIZ: ");
 

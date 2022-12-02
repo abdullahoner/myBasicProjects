@@ -555,6 +555,14 @@
       <change afterPath="$PROJECT_DIR$/../batch195Java/src/ders31_Inheritance/Ftoyota.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../batch195Java/src/ders31_Inheritance/Gcorolla.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myBasicProjects/OkulProjesi01/AnaMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/myBasicProjects/OkulProjesi01/AnaMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myBasicProjects/OkulProjesi01/Kisi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/myBasicProjects/OkulProjesi01/Kisi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myBasicProjects/OkulProjesi01/Ogrenci.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/myBasicProjects/OkulProjesi01/Ogrenci.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myBasicProjects/OkulProjesi01/Ogretmen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/myBasicProjects/OkulProjesi01/Ogretmen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OkulProjesi01/AnaMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OkulProjesi01/AnaMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OkulProjesi01/Kisi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OkulProjesi01/Kisi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OkulProjesi01/Ogrenci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OkulProjesi01/Ogrenci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OkulProjesi01/Ogretmen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OkulProjesi01/Ogretmen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -585,16 +593,20 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/abdul/IdeaProjects/myBasicProjects/src&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/abdul/IdeaProjects/myBasicProjects/out&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\abdul\IdeaProjects\myBasicProjects\out" />
+      <recent name="C:\Users\abdul\IdeaProjects\myBasicProjects\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\abdul\IdeaProjects\myBasicProjects\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OkulProjesi.Runner">
+  <component name="RunManager" selected="Application.Runner">
     <configuration name="BasitAtmProjesi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BasitAtmProjesi.BasitAtmProjesi" />
       <module name="MyBasicProjects" />
@@ -662,9 +674,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Runner" />
         <item itemvalue="Application.OkulProjesi.Runner" />
         <item itemvalue="Application.MarketRunner" />
-        <item itemvalue="Application.Runner" />
         <item itemvalue="Application.kahveMakinesiProjesi" />
         <item itemvalue="Application.BasitAtmProjesi" />
       </list>
